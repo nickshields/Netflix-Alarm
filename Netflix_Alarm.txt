@@ -1,8 +1,10 @@
-set volume output volume 20
+set volume output volume 40
 tell application "Safari"
 	tell window 1
-		set current tab to (make new tab with properties {URL:"https://www.youtube.com/watch?v=oDchRSRhDXw"})
+		set current tab to (make new tab with properties {URL:"https://www.netflix.com/watch/80163156?trackId=15036064&tctx=0%2C0%2C51d76e45-4577-43e8-8760-e2014e18b159-264556497"})
 		activate
+		delay 10
+		tell application "System Events" to keystroke "f"
 	end tell
 	
 end tell
