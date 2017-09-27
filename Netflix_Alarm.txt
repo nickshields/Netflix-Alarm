@@ -1,0 +1,8 @@
+set volume output volume 20
+tell application "Safari"
+	tell window 1
+		set current tab to (make new tab with properties {URL:"https://www.youtube.com/watch?v=oDchRSRhDXw"})
+		activate
+	end tell
+	
+end tell
